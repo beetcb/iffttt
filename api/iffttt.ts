@@ -10,7 +10,10 @@ export default (request: VercelRequest, response: VercelResponse) => {
   } = request
 
   // Get filter and filter content
-  const regex = new RegExp(typeof filter === 'string' ? filter : '.*', 'i')
+  const regex = new RegExp(
+    typeof filter === 'string' ? decodeURIComponent(filter) : '.*',
+    'i'
+  )
   const content: Content | null = body ? JSON.parse(body) : null
 
   if (content) {
