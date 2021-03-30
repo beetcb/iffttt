@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@vercel/node": "^1.9.1"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2"
   }
 }
