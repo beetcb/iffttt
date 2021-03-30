@@ -22,9 +22,11 @@ export default (request: VercelRequest, response: VercelResponse) => {
     if (filteredText) {
       // Format mail
       const text = `SMS Content: ${filteredText}\nFrom: ${content.from}\nTrigger: ${content.occurred}`
-      mail('i@beetcb.com', 'iffttt -> SMS', text).then((_) =>
+      mail('i@beetcb.com', 'SMS -> IFFTTT', text).then((_) =>
         console.log('success')
       )
     }
   }
+
+  response.send('success')
 }
