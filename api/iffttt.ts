@@ -16,7 +16,6 @@ export default async (request: VercelRequest, response: VercelResponse) => {
   )
 
   const content: Content | null = body ? body : null
-  console.log(content)
 
   if (content) {
     // Get filterd content

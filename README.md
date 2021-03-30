@@ -26,4 +26,9 @@ A webhook built for [ifttt](https://ifttt.com/home): take in you input -> filter
 
 # Example
 
-- [`api/iffttt.ts`](./api/iffttt.ts): filter SMS message received on your phone, send an email to `i@beetcb.com` using @sendgrid/mail
+- [`api/iffttt.ts`](./api/iffttt.ts): filter(`/.*(code|验证码).*/i`) SMS message received on your phone, send an email to `i@beetcb.com` using @sendgrid/mail
+
+  "demo":
+
+  ![](https://i.imgur.com/9RCD51o.png)
+  ![](https://i.imgur.com/MqXf8gl.jpg)
