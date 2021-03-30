@@ -6,7 +6,7 @@ A webhook built for [ifttt](https://ifttt.com/home): take in you input -> filter
 
 # Configuration
 
-- `URL`: https://iffttt-git-main-beetcb.vercel.app/?filter=.*(code|%E9%AA%8C%E8%AF%81%E7%A0%81).*
+- `URL`: `https://iffttt.vercel.app/?filter=.*(code|%E9%AA%8C%E8%AF%81%E7%A0%81).*`
 
   Please specify a `filter` paramater using [js regexp: make sure to encode it](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/RegExp)
 
