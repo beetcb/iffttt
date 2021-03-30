@@ -4,5 +4,22 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.2"
-  }
+  },
+  "name": "iffttt",
+  "description": "IF -> Filter That -> Then That",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beetcb/iffttt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beetcb/iffttt/issues"
+  },
+  "homepage": "https://github.com/beetcb/iffttt#readme"
 }
