@@ -23,3 +23,7 @@ A webhook built for [ifttt](https://ifttt.com/home): take in you input -> filter
     "occurred": "OccurredAt"
   }
   ```
+
+# Example
+
+- [`api/iffttt.ts`](./api/iffttt.ts): filter SMS message received on your phone, send an email to `i@beetcb.com` using @sendgrid/mail
